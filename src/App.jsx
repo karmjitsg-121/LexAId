@@ -6,9 +6,9 @@ import { supabase } from './lib/supabaseClient'
 
 
 // ─── API Configuration ─────────────────────────────────────────────────────────
-const SARVAM_API_KEY = import.meta.env.VITE_SARVAM_API_KEY || ''
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || ''
-const DEEPSEEK_API_KEY = import.meta.env.VITE_DEEPSEEK_API_KEY || ''
+const SARVAM_API_KEY = 'sk_pw5t298r_CovLbtc8r6A38WShifMeK2hE'
+const GEMINI_API_KEY = 'AQ.Ab8RN6I7BKaUe4-YbEbyj6GJjh0zymOLv4TI9Sg04KNMGl4SNA'
+const DEEPSEEK_API_KEY = 'sk-bed57bbeec1b4a78bf200863ed4eec5d'
 const SARVAM_STT_URL = 'https://api.sarvam.ai/speech-to-text'
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`
 const DEEPSEEK_URL = 'https://api.deepseek.com/v1/chat/completions'
